@@ -2,7 +2,7 @@
 # directory.
 # Info: https://docs.docker.com/reference/dockerfile/
 
-FROM python:3.14-slim
+FROM python:3.15-slim
 ENV VIRTUAL_ENV=/venv
 RUN python -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
